@@ -49,7 +49,7 @@ struct ToolbarView2: View {
           }
           
           ToolbarItem(placement: .bottomBar) {
-            Button("Delete", systemImage: "trash") { }
+            Button("Delete", systemImage: "trash") { }.tint(.red)
           }
           ToolbarSpacer(.flexible, placement: .bottomBar)
           ToolbarItem(placement: .bottomBar) {
